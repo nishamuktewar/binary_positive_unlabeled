@@ -36,10 +36,10 @@ Criteria:
 1. Is it exciting to the team? Maybe
 2. Can it be framed as a strong capability (rather than an algorithm) Maybe
 3. Is it a subject that is more possible now than in two years, and likely to be more possible/transformative still in a couple of years. That usually means some or all of the following things are true:
-    i) There is excitement (ideally including concrete breakthroughs) in the research community - Yes, quite a few papers
-    ii) Economic constraints (e.g. hardware) have lessened/disappeared
-    iii) There has there been a commoditization of tooling
-    iv) Data is available (especially to FFL!)
+    - There is excitement (ideally including concrete breakthroughs) in the research community - Yes, quite a few papers
+    - Economic constraints (e.g. hardware) have lessened/disappeared
+    - There has there been a commoditization of tooling
+    - Data is available (especially to FFL!)
 4. Is it useful to our existing clients? yes
 5. It is appealing to potential clients? yes
 6. It it possible to build a prototype? will have to find out how this works
