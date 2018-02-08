@@ -1,12 +1,17 @@
 # Binary classification with only positive examples
 
 ## What is positive-unlabeled classification?
-Basically dealing with cases when we have only partially labeled data, one vs rest kind of use cases. For instance, in the land cover data, urban vs non-urban where the non-urban areas are too diverse than the labeled data. This can also be framed more like an outlier analysis problem. One way is to recognize the negative samples from the unlabeled data and then feed them to classical binary classification models. These methods generally yeild poor results. The other way is to treat unlabeled data as negative samples and use some kind of decayed weight. Re-weighting the unlabeled data strategy has its limitations.
+Basically dealing with cases when we have only partially labeled data, one vs rest kind of use cases. For instance, in the land cover data, urban vs non-urban where the non-urban areas are too diverse than the labeled data. This can also be framed more like an outlier analysis problem. Since unlabeled data consists of both positive and negative data, simply
+separating positive and unlabeled data yields a biased solution. One way or the other we want to reduce the bias.
 
 ## Thoughts
-From an application perspective - automatic label identification such as automatically tagging photos by providing a collection of photos being of the same class.
+Since the idea is to reduce bias, there are approaches discussed in the papers that work on different loss functions (example using ramp loss vs mse) rather than performing some kind of re-weighting. Then recently there is use of GANs
+From an application perspective 
+- automatic label identification such as automatically tagging photos by providing a collection of photos being of the same class
+- recommendations, example if an artist's album is bought (positive) or not (unlabeled)
+
 Discriminative PU learning approaches have their limitations, more recently GANs
-application - recommendations, example if an artist's album is bought (positive) or not (unlabeled), at times it is difficult to lavel all the outliers in the data
+application 
 
 ## Recent papers 
 ### arXiv archive
@@ -21,21 +26,20 @@ application - recommendations, example if an artist's album is bought (positive)
 
 ### ICML archive
 - Aug 2017, [Semi-Supervised Classification Based on Classification from Positive and Unlabeled Data](http://proceedings.mlr.press/v70/sakai17a/sakai17a.pdf)
+- 2016, [Loss Factorization, Weakly Supervised Learning and Label Noise Robustness] ()
+- 2015, [Convex Formulation for Learning from Positive and Unlabeled Data](http://proceedings.mlr.press/v37/plessis15.pdf)
 
 ### ICLR archive
 
 
 Criteria:
-1. Is it exciting to the team? Not exactly
-2. Can it be framed as a strong capability (rather than an algorithm) Yes
+1. Is it exciting to the team? Maybe
+2. Can it be framed as a strong capability (rather than an algorithm) Maybe
 3. Is it a subject that is more possible now than in two years, and likely to be more possible/transformative still in a couple of years. That usually means some or all of the following things are true:
-  * There is excitement (ideally including concrete breakthroughs) in the research community - Yes, quite a few papers
-  * Economic constraints (e.g. hardware) have lessened/disappeared
-  * There has there been a commoditization of tooling
-  * Data is available (especially to FFL!)
-4. Is it useful to our existing clients? definitely
+    i) There is excitement (ideally including concrete breakthroughs) in the research community - Yes, quite a few papers
+    ii) Economic constraints (e.g. hardware) have lessened/disappeared
+    iii) There has there been a commoditization of tooling
+    iv) Data is available (especially to FFL!)
+4. Is it useful to our existing clients? yes
 5. It is appealing to potential clients? yes
 6. It it possible to build a prototype? will have to find out how this works
-
-http://search.arxiv.org:8081/?query=positive+unlabeled+learning&in=cs&qid=1518036631666bas_nCnN_-1123160627&startat=0
-
