@@ -6,12 +6,13 @@ Basically dealing with cases when we have only partially labeled data, one vs re
 ## Thoughts
 From an application perspective - automatic label identification such as automatically tagging photos by providing a collection of photos being of the same class.
 Discriminative PU learning approaches have their limitations, more recently GANs
+application - recommendations, example if an artist's album is bought (positive) or not (unlabeled), at times it is difficult to lavel all the outliers in the data
 
 ## Recent papers 
 ### arXiv archive
 - Nov 2017, [A generative adversarial framework for positive-unlabeled classification](https://arxiv.org/pdf/1711.08054.pdf)
 - May 2017, [Semi-Supervised AUC Optimization based on Positive-Unlabeled Learning](https://arxiv.org/pdf/1705.01708.pdf)
-- Apr 2017, [Risk Minimization Framework for Multiple Instance Learning from Positive and Unlabeled Bags (https://arxiv.org/pdf/1704.06767.pdf)
+- Apr 2017, [Risk Minimization Framework for Multiple Instance Learning from Positive and Unlabeled Bags](https://arxiv.org/pdf/1704.06767.pdf)
 - Mar 2017, [Positive-Unlabeled Learning with Non-Negative Risk Estimator](https://arxiv.org/pdf/1703.00593.pdf)
 - Feb 2017, [Recovering True Classifier Performance in Positive-Unlabeled Learning](https://arxiv.org/pdf/1702.00518.pdf)
 - Aug 2016, [Efficient Training for Positive Unlabeled Learning](https://arxiv.org/pdf/1608.06807.pdf)
