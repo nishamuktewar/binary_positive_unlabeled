@@ -26,7 +26,7 @@ application
 
 ### ICML archive
 - Aug 2017, [Semi-Supervised Classification Based on Classification from Positive and Unlabeled Data](http://proceedings.mlr.press/v70/sakai17a/sakai17a.pdf)
-- 2016, [Loss Factorization, Weakly Supervised Learning and Label Noise Robustness] ()
+- 2016, [Loss Factorization, Weakly Supervised Learning and Label Noise Robustness (http://proceedings.mlr.press/v48/patrini16.pdf)
 - 2015, [Convex Formulation for Learning from Positive and Unlabeled Data](http://proceedings.mlr.press/v37/plessis15.pdf)
 
 ### ICLR archive
