@@ -1,9 +1,11 @@
 # Binary classification with only positive examples
 
 ## What is positive-unlabeled classification?
-Basically dealing with cases when we have only partially labeled data, one vs rest kind of use cases. For instance, urban vs non-urban where the "non-urban" areas are too diverse than the labeled data. This can also be framed more like outlier analysis problem
+Basically dealing with cases when we have only partially labeled data, one vs rest kind of use cases. For instance, in the land cover data, urban vs non-urban where the non-urban areas are too diverse than the labeled data. This can also be framed more like an outlier analysis problem. One way is to recognize the negative samples from the unlabeled data and then feed them to classical binary classification models. These methods generally yeild poor results. The other way is to treat unlabeled data as negative samples and use some kind of decayed weight. Re-weighting the unlabeled data strategy has its limitations.
 
 ## Thoughts
+From an application perspective - automatic label identification such as automatically tagging photos by providing a collection of photos being of the same class.
+Discriminative PU learning approaches have their limitations, more recently GANs
 
 ## Recent papers 
 ### arXiv archive
