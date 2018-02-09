@@ -4,14 +4,16 @@
 Basically dealing with cases when we have only partially labeled data, one vs rest kind of use cases. For instance, in the land cover data, urban vs non-urban where the non-urban areas are too diverse than the labeled data. This can also be framed more like an outlier analysis problem. Since unlabeled data consists of both positive and negative data, simply
 separating positive and unlabeled data yields a biased solution. One way or the other we want to reduce the bias.
 
-## Thoughts
+## Thoughts/ comments
 Since the idea is to reduce bias, there are approaches discussed in the papers that work on different loss functions (example using ramp loss vs mse) rather than performing some kind of re-weighting. Then recently there is use of GANs
 From an application perspective 
 - automatic label identification such as automatically tagging photos by providing a collection of photos being of the same class
 - recommendations, example if an artist's album is bought (positive) or not (unlabeled)
-
-Discriminative PU learning approaches have their limitations, more recently GANs
-application 
+- Retrieval, where the goal is to find samples in an unlabeled data set similar to samples provided by a user
+- Inlier-based outlier detection, where the goal is to detect outliers from an unlabeled data set based on inlier samples. Think fraud related use cases.
+- One-vs-rest classification, which is typical of problems where the negative class is too diverse and
+it is therefore difficult to collect and label enough negative samples
+- Open set recognition, where testing classes are unknown at training time and therefore the exploitation of unlabeled data may help to learn more robust concepts
 
 ## Recent papers 
 ### arXiv archive
