@@ -24,11 +24,11 @@ it is therefore difficult to collect and label enough negative samples
 - Feb 2017, [Recovering True Classifier Performance in Positive-Unlabeled Learning](https://arxiv.org/pdf/1702.00518.pdf)
 - Aug 2016, [Efficient Training for Positive Unlabeled Learning](https://arxiv.org/pdf/1608.06807.pdf)
 - Feb 2016, [Active Learning from Positive and Unlabeled Data](https://arxiv.org/pdf/1602.07495.pdf)
-- Feb 2014, [A Robust Ensemble Approach to Learn From Positive and Unlabeled Data Using SVM Base Models] (https://arxiv.org/pdf/1402.3144.pdf)
+- Feb 2014, [A Robust Ensemble Approach to Learn From Positive and Unlabeled Data Using SVM Base Models](https://arxiv.org/pdf/1402.3144.pdf)
 
 ### ICML archive
 - Aug 2017, [Semi-Supervised Classification Based on Classification from Positive and Unlabeled Data](http://proceedings.mlr.press/v70/sakai17a/sakai17a.pdf)
-- 2016, [Loss Factorization, Weakly Supervised Learning and Label Noise Robustness] (http://proceedings.mlr.press/v48/patrini16.pdf)
+- 2016, [Loss Factorization, Weakly Supervised Learning and Label Noise Robustness](http://proceedings.mlr.press/v48/patrini16.pdf)
 - 2015, [Convex Formulation for Learning from Positive and Unlabeled Data](http://proceedings.mlr.press/v37/plessis15.pdf)
 
 ### ICLR archive
